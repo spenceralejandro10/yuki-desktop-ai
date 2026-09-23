@@ -1,0 +1,14 @@
+{
+  "idle":{"frames":8,"fps":6,"loop":true},
+  "walk-left":{"frames":8,"fps":10,"loop":true},
+  "walk-right":{"frames":8,"fps":10,"loop":true},
+  "run-left":{"frames":8,"fps":14,"loop":true},
+  "run-right":{"frames":8,"fps":14,"loop":true},
+  "talk":{"frames":8,"fps":8,"loop":true},
+  "listen":{"frames":6,"fps":6,"loop":true},
+  "think":{"frames":6,"fps":5,"loop":true},
+  "wave":{"frames":8,"fps":8,"loop":false},
+  "jump":{"frames":8,"fps":12,"loop":false},
+  "sit":{"frames":6,"fps":6,"loop":false},
+  "sleep":{"frames":8,"fps":4,"loop":true}
+}
