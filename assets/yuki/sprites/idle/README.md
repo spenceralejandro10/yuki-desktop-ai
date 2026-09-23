@@ -1,3 +1,1 @@
-# idle
-
-Frames PNG transparentes de la animación `idle` de Yuki.
+# Yuki — Idle\n\n8 frames PNG RGBA, 512×512, fondo transparente.\n
