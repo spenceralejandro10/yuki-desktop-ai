@@ -1,0 +1,9 @@
+{
+  "name":"yuki-desktop-ai",
+  "version":"0.1.0",
+  "private":true,
+  "description":"Yuki desktop mascot",
+  "main":"src/main/main.js",
+  "scripts":{"start":"electron .","dev":"electron ."},
+  "devDependencies":{"electron":"^38.1.2"}
+}
