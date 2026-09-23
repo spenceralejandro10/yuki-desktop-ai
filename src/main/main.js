@@ -5,11 +5,16 @@ let win;
 function createWindow() {
   const area = screen.getPrimaryDisplay().workArea;
   win = new BrowserWindow({
-    width: 420, height: 520,
-    x: area.x + area.width - 440,
-    y: area.y + area.height - 540,
-    transparent: true, frame: false, resizable: false,
-    hasShadow: false, alwaysOnTop: true, skipTaskbar: true,
+    width: area.width,
+    height: area.height,
+    x: area.x,
+    y: area.y,
+    transparent: true,
+    frame: false,
+    resizable: false,
+    hasShadow: false,
+    alwaysOnTop: true,
+    skipTaskbar: true,
     webPreferences: { preload: path.join(__dirname, "preload.js"), contextIsolation: true }
   });
   win.setMenuBarVisibility(false);
