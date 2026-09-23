@@ -1,0 +1,8 @@
+{
+  "id": "yuki",
+  "name": "Yuki",
+  "displayName": "Yuki",
+  "defaultState": "idle",
+  "spriteRoot": "assets/yuki/sprites",
+  "referenceRoot": "assets/yuki/reference"
+}
